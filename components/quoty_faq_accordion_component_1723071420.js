@@ -6,7 +6,7 @@
 Vue.component("quoty_faq_accordion_component_1723071420", {
     template: `
     <section class="py-8 bg-white pl-4">
-        <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+        <h2 class="text-lg font-semibold mb-5">Cuddly Questions: Your Teddy Bear FAQs</h2>
         <!-- Accordion -->
         <div class="space-y-3">
             <!-- Accordion item -->
@@ -38,10 +38,10 @@ Vue.component("quoty_faq_accordion_component_1723071420", {
             svgFillStyle: "fill-slate-400 dark:fill-slate-500",
             termsTextStyle: "text-slate-500 dark:text-slate-400",
             terms: [
-                { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-                { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-                { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-                { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false },
+                { title: "What makes our teddy bears special?", description: "Our teddy bears are crafted with premium, ultra-soft materials and filled with love. Each bear undergoes rigorous quality checks to ensure it's perfect for cuddling and built to last for years of companionship.", expanded: false },
+                { title: "Are your teddy bears suitable for all ages?", description: "Absolutely! We have a wide range of teddy bears suitable for newborns, children, and adults alike. All our bears meet or exceed safety standards, making them perfect companions for everyone.", expanded: false },
+                { title: "Can I personalize my teddy bear?", description: "Yes, you can! We offer customization options including embroidered names, special outfits, and even recordable voice messages. Make your teddy bear truly one-of-a-kind!", expanded: false },
+                { title: "What is your return policy for teddy bears?", description: "We want you to be completely satisfied with your new furry friend. If for any reason you're not happy, we offer a 30-day return policy. Simply return the bear in its original condition for a full refund or exchange.", expanded: false },
             ],
         };
     },
