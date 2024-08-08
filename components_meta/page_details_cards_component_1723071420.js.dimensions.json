@@ -1,18 +1,21 @@
 {
     "component_name": "page_details_cards_component",
-    "id": "page_details_cards_component_1723071420.js",
+    "id": "page_details_cards_component_1723071420",
     "type": "containerComponent",
-    "metadata": {},
+    "metadata": {
+        "markdownText": "/* Summary: Contains a section with three cards with black background and white text.\n  The three cards are side by side and each contains a detail name in bold above a detail value.\n*/\nVue.component(\"page_details_cards_component_1723071420\", {\n    template: `\n    <section id=\"page-details-cards-component\" class=\"py-8 bg-white\">\n        <h2 id=\"details-title\" class=\"text-lg font-semibold mb-5 pl-4\">Details</h2>\n        <ul id=\"details-list\" class=\"grid gap-4 min-[480px]:grid-cols-3 text-sm\">\n            <li id=\"project-length\" class=\"px-5 py-4 rounded-lg\" :class=\"detailsListStyle\">\n                <div class=\"font-medium\" :class=\"detailsComponentTextStyle\">Cuddly Companions</div>\n                <div :class=\"detailsComponentTextSecondaryStyle\">Our teddy bears are crafted with love and designed to be your child's best friend.</div>\n            </li>\n            <li id=\"start-date\" class=\"px-5 py-4 rounded-lg\" :class=\"detailsListStyle\">\n                <div class=\"font-medium\" id=\"start-date-des-1\" :class=\"detailsComponentTextStyle\">Premium Quality</div>\n                <time :class=\"detailsComponentTextSecondaryStyle\" id=\"start-time-des-1\">Made from the softest materials and built to last, our bears are perfect for hugs and playtime.</time>\n            </li>\n            <li id=\"end-date\" class=\"px-5 py-4 rounded-lg\" :class=\"detailsListStyle\">\n                <div class=\"font-medium\" id=\"end-date-des-1\" :class=\"detailsComponentTextStyle\">Variety of Styles</div>\n                <time :class=\"detailsComponentTextSecondaryStyle\" id=\"end-time-des-1\">From classic browns to colorful characters, find the perfect teddy bear for every personality.</time>\n            </li>\n        </ul>\n    </section>\n    `,\n    data() {\n        return {\n            expanded: false,\n            tab: null,\n            detailsListStyle: \"bg-gradient-to-tr from-slate-950 to-slate-800 dark:from-slate-800/80 dark:to-slate-900\",\n            detailsComponentTextStyle: \"text-slate-200\",\n            detailsComponentTextSecondaryStyle: \"text-slate-400\"\n        };\n    },\n});\n\n"
+    },
     "w": 12,
     "h": 8,
-    "x": "50",
-    "y": "50",
-    "i": "__dropping-elem__",
+    "x": 0,
+    "y": 32,
+    "i": "4",
     "minW": 3,
     "maxW": 12,
     "minH": 1,
     "moved": false,
     "static": false,
     "isDraggable": true,
-    "isResizable": true
+    "isResizable": true,
+    "name": ""
 }
